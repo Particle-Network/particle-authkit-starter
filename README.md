@@ -7,9 +7,9 @@
   </h3>
 </div>
 
-# Particle Auth & ethers V6
+# Particle Authkit & ethers V6
 
-⚡️ Basic demo application using `@particle-network/authkit` to initiate social login and send transactions. This is a lower-level library and powers `@particle-network/auth-core-modal` - most additional functionality beyond the aforementioned (login and transaction execution) will need to be built by the developer implementing this library.
+⚡️ Basic demo application using `@particle-network/authkit` to initiate social login and send transactions.
 
 This app allows you to log in using social logins and interact with the Ethereum Sepolia and Base Sepolia testnets by displaying account information and sending a transfer transaction to an address you can input in the UI. 
 
@@ -22,14 +22,14 @@ This demo is available in Next JS and React.
 
 Built using:
 
-- **Particle Auth Core**
+- **Particle Authkit**
 - **ethers.js V6.x.x**
 - **TypeScript**
 - **Tailwind CSS**
 
-## 🔑 Particle Auth Core
+## 🔑 Particle Authkit
 
-Particle Auth Core, a component of Particle Network's Wallet-as-a-Service, enables seamless onboarding to an application-embedded MPC-TSS/AA wallet facilitated by social login, such as Google, GitHub, email, phone number, etc. - as an alternative to Particle Auth, the Auth Core SDK comes with more control over the modal itself, application-embedded popups rather than redirects, and so on.
+Particle Authkit, a component of Particle Network's Wallet-as-a-Service, enables seamless onboarding to an application-embedded MPC-TSS/AA wallet facilitated by social login, such as Google, GitHub, email, phone number, etc.
 
 ***
 
@@ -45,7 +45,7 @@ Particle Auth Core, a component of Particle Network's Wallet-as-a-Service, enabl
 
 ### Clone this repository
 ```
-git clone https://github.com/soos3d/particle-auth-ethers-demo
+git clone https://github.com/soos3d/particle-authkit-starter
 ```
 
 ### Move into the app directory (Next JS)
@@ -91,11 +91,11 @@ yarn dev
 
 ## Development Next JS
 
-Particle Auth config is in `src/app/components/Autkit.tsx`. 
+Particle Auth config is in `src/app/components/Authkit.tsx`. 
 
 ## Development React
 
-Particle Auth config is in `src/app/components/Autkit.tsx`. 
+Particle Auth config is in `src/app/components/Authkit.tsx`. 
 
 ### Config social logins
 
